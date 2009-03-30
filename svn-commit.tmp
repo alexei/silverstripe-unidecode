@@ -1,0 +1,4 @@
+Initial commit of Unidecode, a module to transliterate utf-8 to us-ascii using data files converted from the perl module Text::Unidecode
+--This line, and those below, will be ignored--
+
+A    .
