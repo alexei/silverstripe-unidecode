@@ -108,4 +108,4 @@ class Unidecode {
 	}
 }
 
-Unicode::$containing_dir = dirname(__FILE__) ;
+Unidecode::$containing_dir = dirname(__FILE__) ;
