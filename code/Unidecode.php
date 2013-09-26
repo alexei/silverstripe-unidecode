@@ -76,7 +76,7 @@ class Unidecode {
 
 			if ( !isset( self::$tr[$h] ) ) {
 				$fname = sprintf( 'x%02x.php', $h ) ;
-				include self::$containing_dir . "/data/$fname" ;
+				include self::$containing_dir . "/../data/$fname" ;
 			}
 
 			return Unidecode::$tr[$h][$l] ;
@@ -95,7 +95,7 @@ class Unidecode {
 
 			if ( !isset( self::$tr[$h] ) ) {
 				$fname = sprintf( 'x%02x.php', $h ) ;
-				include self::$containing_dir . "/data/$fname" ;
+				include self::$containing_dir . "/../data/$fname" ;
 			}
 
 			return Unidecode::$tr[$h][$l] ;
@@ -108,4 +108,4 @@ class Unidecode {
 	}
 }
 
-Unicode::$containing_dir = dirname(__FILE__) ;
+Unidecode::$containing_dir = dirname(__FILE__) ;
